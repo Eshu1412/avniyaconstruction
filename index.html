@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinya Associates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Avinya Associates Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#auth">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Parallax Background -->
+    <section id="hero" class="parallax">
+        <div class="hero-content">
+            <h1>Welcome to Avinya Associates</h1>
+            <p>Your trusted partner for construction and architecture services</p>
+            <a href="#services" class="cta-button">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <div class="about-box">
+                <p>At Avinya Associates, we believe in transforming visions into reality. Founded with a passion for architectural excellence, we specialize in creating sustainable and innovative designs that stand the test of time. Our team of experienced professionals is dedicated to providing high-quality construction and architecture services tailored to meet the unique needs of our clients.</p>
+                <p>With years of expertise in the industry, we pride ourselves on our ability to integrate creativity, functionality, and sustainability in every project. From residential buildings to commercial spaces, we approach each venture with meticulous attention to detail and a commitment to excellence.</p>
+                <p>Our mission is to create environments that inspire and enhance the quality of life for those who inhabit them. We are not just builders; we are partners in your journey towards achieving your dream space.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with Cards -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <h3>Architectural Design</h3>
+                <p>We create innovative and sustainable architectural designs tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <h3>Construction Management</h3>
+                <p>Efficient management of construction projects ensuring timely delivery.</p>
+            </div>
+            <div class="service">
+                <h3>Interior Design</h3>
+                <p>Stunning interiors that combine functionality with aesthetic appeal.</p>
+            </div>
+            <div class="service">
+                <h3>Structural Engineering</h3>
+                <p>Safe and robust structures designed by expert engineers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flip Card Section for Register/Login -->
+    <section id="auth" class="parallax auth-bg">
+        <div class="flip-card">
+            <div class="flip-card-inner" id="flip-card-inner">
+                <!-- Login Form -->
+                <div class="flip-card-front">
+                    <h2>Login</h2>
+                    <form id="loginForm">
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit">Login</button>
+                        <p>Don't have an account? <a href="#" id="flipToRegister">Register here</a></p>
+                    </form>
+                </div>
+
+                <!-- Register Form -->
+                <div class="flip-card-back">
+                    <h2>Register</h2>
+                    <form id="registerForm">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit">Register</button>
+                        <p>Already have an account? <a href="#" id="flipToLogin">Login here</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section with Parallax Background -->
+    <section id="projects" class="parallax projects-bg">
+        <h2>Our Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Residential Buildings</h3>
+                <p>High-quality residential building projects designed and constructed by Avinya Associates.</p>
+            </div>
+            <div class="project">
+                <h3>Commercial Spaces</h3>
+                <p>Modern commercial spaces designed with an eye for efficiency and aesthetics.</p>
+            </div>
+            <div class="project">
+                <h3>Public Infrastructure</h3>
+                <p>Expert solutions for public infrastructure projects that combine innovation and sustainability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to Avinya Associates for your construction and architecture needs:</p>
+        <ul>
+            <li>Email: info@avinyaassociates.com</li>
+            <li>Phone: +91-1234567890</li>
+            <li>Address: 1234, Sector 4, Lucknow, UP, India</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Avinya Associates. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
